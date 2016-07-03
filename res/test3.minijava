@@ -1,9 +1,0 @@
-class A { 
-
-public static void main(String[] args) { 
-double x=2.0;
-double z= x * 2.5;
-System.out.println(z);
-} 
-}
-}
