@@ -1,0 +1,24 @@
+class A { 
+enum Language{ 
+Python, Java, Csharp, Cplusplus, C, Swift, Javascript 
+} 
+
+public static double multiply(double num){ 
+return num*2.0; 
+}  
+
+
+public static void main(String[] args) { 
+System.out.println("I am young, i prefer: "); 
+System.out.println(Language.Csharp); 
+System.out.println("On the second course, i would use: "); 
+System.out.println(Language.Java); 
+
+
+double[] quartiles = {0.0,0.25,0.5,0.75,1.0}; 
+
+for (double quartile: quartiles){ 
+System.out.println(multiply(quartile)); 
+} 
+} 
+} 
