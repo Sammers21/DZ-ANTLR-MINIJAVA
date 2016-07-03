@@ -1,0 +1,9 @@
+class A { 
+public static void hellow(){
+System.out.println("hello, I m your program");
+}
+public static void main(String[] args) { 
+hellow();
+} 
+}
+}

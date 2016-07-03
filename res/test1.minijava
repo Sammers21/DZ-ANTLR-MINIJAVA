@@ -1,0 +1,15 @@
+class A {
+
+enum Planets{
+Mars,Mercury,Neptune,Pluto,Saturn,Uranus,Venus,Earth 
+}
+
+public static void main(String[] args) {
+System.out.println("Today we live on the");
+System.out.println(Planets.Earth);
+
+System.out.println("But tomorrow we will live on");
+System.out.println(Planets.Mars);
+
+}
+}
